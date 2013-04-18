@@ -1,4 +1,11 @@
-source 'https://rubygems.org'
+source :rubygems
 
-# Specify your gem's dependencies in Kranti-Service.gemspec
-gemspec
+ruby "1.9.3"
+
+gem "rake"
+gem "sinatra"
+gem "json"
+gem "shotgun"
+gem 'thin'
+gem 'mongoid'
+gem 'bson_ext'
